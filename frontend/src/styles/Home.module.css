@@ -1,0 +1,31 @@
+.page {
+  padding: 0 2rem 2rem;
+}
+.searchSection {
+  margin-top: 1.5rem;
+}
+.status {
+  text-align: center;
+  padding: 3rem 0;
+  color: #78716c;
+  font-size: 0.875rem;
+}
+.statusError {
+  text-align: center;
+  padding: 3rem 0;
+  color: #ef4444;
+  font-size: 0.875rem;
+}
+.footer {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e7e5e4;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.813rem;
+  color: #a8a29e;
+}
+@media (max-width: 640px) {
+  .page { padding: 0 1rem 1rem; }
+  .footer { flex-direction: column; gap: 0.5rem; text-align: center; }
+}
