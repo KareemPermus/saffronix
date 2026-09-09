@@ -1,0 +1,8 @@
+services:
+  frontend:
+    build: ./frontend
+    container_name: saffronix-frontend
+    ports:
+      - "4000:4000"
+    environment:
+      - PORT=4000
